@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A special birthday celebration.">
+    
+        <title>Happy Birthday</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <nav class="navigation" aria-label="Main navigation">
+            <a class="navigation__logo" href="#home">
+                ✦ Maira
+            </a>
+
+            <button
+                class="navigation__menu"
+                type="button"
+                aria-label="Open menu"
+                aria-expanded="false"
+                aria-controls="mobileMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <div class="navigation__links" id="mobileMenu">
+                <a href="#home">Home</a>
+                <a href="#celebration">Celebrate</a>
+                <a href="#memories">Memories</a>
+                <a href="#message">Message</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero" id="home">
+            <div class="hero__decorations" aria-hidden="true">
+                <div class="hero-decoration hero-decoration--flag-left">
+                    <img src="assets/images/ui/1.png" alt="">
+                </div>
+
+                <div class="hero-decoration hero-decoration--flag-right">
+                    <img src="assets/images/ui/1.png" alt="">
+                </div>
+
+                <div class="hero-decoration hero-decoration--hat">
+                    <img src="assets/images/decorations/hat.png" alt="">
+                </div>
+
+                <div class="hero-decoration hero-decoration--balloon-left">
+                    <img src="assets/images/decorations/balloon-1.png" alt="">
+                </div>
+
+                <div class="hero-decoration hero-decoration--balloon-right">
+                    <img src="assets/images/decorations/balloon-2.png" alt="">
+                </div>
+
+                <div class="hero-decoration hero-decoration--flower-left">
+                    <img src="assets/images/decorations/flowers.png" alt="">
+                </div>
+
+                <div class="hero-decoration hero-decoration--flower-right">
+                    <img src="assets/images/decorations/flowers.png" alt="">
+                </div>
+
+                <div class="hero-decoration hero-decoration--smiley">
+                    <img src="assets/images/ui/smiley.png" alt="">
+                </div>
+
+                
+            </div>
+            <div class="hero__glow hero__glow--one"></div>
+            <div class="hero__glow hero__glow--two"></div>
+
+            <div class="hero__content">
+                <p class="hero__eyebrow">
+                    A special day for someone special
+                </p>
+
+                <h1 class="hero__title">
+                    Happy Birthday
+                    <span>Maira!</span>
+                </h1>
+
+                <p class="hero__date">
+                    1st September
+                </p>
+
+                <p class="hero__description">
+                    Today is all about celebrating beautiful memories,
+                    little moments and another wonderful year.
+                </p>
+
+                <a class="hero__button" href="#celebration">
+                    Start the celebration
+                    <span aria-hidden="true">↓</span>
+                </a>
+            </div>
+
+            <div class="hero-decoration hero-decoration--bottom" aria-hidden="true">
+                <img src="assets/images/decorations/decoration.png">
+            </div>
+
+            <div class="hero__scroll" aria-hidden>
+                <span></span>
+            </div>
+        </section>
+
+        <section class="celebration section" id="celebration">
+            <div class="section-heading">
+                <p class="section-heading__eyebrow">
+                    ✦ Celebrate
+                </p>
+
+                <h2 class="section-heading__title">
+                    A day worth
+                    <span>remembering</span>
+                </h2>
+
+                <p class="section-heading__description">
+                    Every birthday is reminder of all the
+                    wonderful moments that make life special
+                </p>
+            </div>
+
+            <div class="celebration__content">
+                <article class="birthday-card birthday-card--featured">
+                    <button
+                            class="image-trigger birthday-card__image"
+                            type="button"
+                            aria-label="Open birthday photo"
+                            data-lightbox="assets/images/birthday/birthday-person.png"
+                            data-lightbox-alt="Birthday celebration">
+                        <img
+                            src="assets/images/birthday/birthday-person.png"
+                            alt=""
+                            loading="lazy">
+                    </button>
+
+                    <div class="birthday-card__content">
+                        <p class="birthday-card__eyebrow">
+                             ✦ Today is your day
+                        </p>
+
+                        <h3>
+                            Another beautiful year
+                        </h3>
+
+                        <p>
+                            May this new year chapter bring you countless
+                            reasons to smile and memories worth keeping.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="birthday-card birthday-card--interactive" data-celebration="moments">
+                    <div class="birthday-card__icon">
+                        ♡
+                    </div>
+
+                    <h3>
+                        More moments
+                    </h3>
+
+                    <p>
+                        Every little moment can become
+                        a beautiful memory.
+                    </p>
+
+                    <button class="birthday-card__button" type="button">
+                        Discover
+                        <span aria-hidden="true">→</span>
+                    </button>
+                </article>
+
+                <article class="birthday-card birthday-card--interactive" data-celebration="happiness">
+                    <div class="birthday-card__icon">
+                        ✦
+                    </div>
+
+                    <h3>
+                        Endless happiness
+                    </h3>
+
+                    <p>
+                        Wishing you countless smiles,
+                        laughter and wonderful days ahead.
+                    </p>
+
+                    <button class="birthday-card__button" type="button">
+                        Discover
+                        <span aria-hidden="true">→</span>
+                    </button>
+                </article>
+            </div>
+        </section>
+
+        <section class="memories section" id="memories">
+            <div class="section-heading">
+                <p class="section-heading__eyebrow">
+                    ✦ Memories
+                </p>
+
+                <h2 class="section-heading__title">
+                    Beautiful
+                    <span>moments</span>
+                </h2>
+            </div>
+
+            <div class="memories__gallery">
+
+                <button
+                    class="image-trigger memory-card memory-card--large"
+                    type="button"
+                    aria-label="Open memory photo 1"
+                    data-lightbox="assets/images/memories/memory-01.jpg"
+                    data-lightbox-alt="Birthday memory 1">
+                
+                    <img
+                        src="assets/images/memories/memory-01.jpg"
+                        alt="Birthday memory 1"
+                        loading="lazy">
+                </button>
+
+                <button
+                    class="image-trigger memory-card"
+                    type="button"
+                    aria-label="Open memory photo 2"
+                    data-lightbox="assets/images/memories/memory-02.jpg"
+                    data-lightbox-alt="Birthday memory 2">
+                
+                    <img
+                        src="assets/images/memories/memory-02.jpg"
+                        alt="Birthday memory 2"
+                        loading="lazy">
+                </button>
+
+                <button
+                    class="image-trigger memory-card"
+                    type="button"
+                    aria-label="Open memory photo 3"
+                    data-lightbox="assets/images/memories/memory-03.jpg"
+                    data-lightbox-alt="Birthday memory 3">
+                
+                    <img
+                        src="assets/images/memories/memory-03.jpg"
+                        alt="Birthday memory 3"
+                        loading="lazy">
+                </button>
+
+                <button
+                    class="image-trigger memory-card"
+                    type="button"
+                    aria-label="Open memory photo 4"
+                    data-lightbox="assets/images/memories/memory-04.jpg"
+                    data-lightbox-alt="Birthday memory 4">
+                
+                    <img
+                        src="assets/images/memories/memory-04.jpg"
+                        alt="Birthday memory 4"
+                        loading="lazy">
+                </button>
+
+                <button
+                    class="image-trigger memory-card"
+                    type="button"
+                    aria-label="Open memory photo 5"
+                    data-lightbox="assets/images/memories/memory-05.jpg"
+                    data-lightbox-alt="Birthday memory 5">
+                
+                    <img
+                        src="assets/images/memories/memory-05.jpg"
+                        alt="Birthday memory 5"
+                        loading="lazy">
+                </button>
+
+                <button
+                    class="image-trigger memory-card"
+                    type="button"
+                    aria-label="Open memory photo 6"
+                    data-lightbox="assets/images/memories/memory-06.jpg"
+                    data-lightbox-alt="Birthday memory 6">
+                
+                    <img
+                        src="assets/images/memories/memory-06.jpg"
+                        alt="Birthday memory 6"
+                        loading="lazy">
+                </button>
+
+            </div>
+        </section>
+
+        <section
+            class="message section"
+            id="message">
+
+            <div class="message__card">
+                <div class="message__decoration" aria-hidden="true">
+                    <img
+                        src="assets/images/letter/heart_letter.png"
+                        alt="">
+                </div>
+
+                <p class="section-heading__eyebrow">
+                    ✦ A little message
+                </p>
+
+                <h2>
+                    From the heart
+                </h2>
+
+                <p class="message__intro">
+                    There's something special waiting for you.
+                </p>
+
+                <button
+                    class="message__button"
+                    type="button"
+                    id="openLetter">
+                    Open your letter
+                    <span aria-hidden="true">♡</span>
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p> Made with <span aria-hidden="true">♡</span>
+        by <a href="https://instagram.com/slayerarmanog" target="_blank" rel="noopener noreferrer">Arman Ahmad</a>.
+        </p>
+    </footer>
+
+    <div
+        class="lightbox"
+        id="lightbox"
+        aria-hidden="true">
+
+        <div
+            class="lightbox__backdrop"
+            data-lightbox-close></div>
+
+        <div
+            class="lightbox__dialog"
+            role="dialog"
+            aria-modal="true"
+            aria-label="Image preview">
+        
+            <button
+                class="lightbox__close"
+                type="button"
+                aria-label="Close image preview"
+                data-lightbox-close>
+                ×
+            </button>    
+
+            <img
+                class="lightbox__image"
+                src=""
+                alt="">
+        </div>
+    </div>
+
+    <div
+        class="letter"
+        id="letter"
+        aria-hidden="true">
+    
+        <div
+            class="letter__backdrop"
+            data-letter-close></div>
+        
+        <div
+            class="letter__dialog"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="letterTitle">
+        
+            <button
+                class="letter__close"
+                type="button"
+                aria-label="Close birthday letter"
+                data-letter-close>
+                ×
+            </button>
+
+            <div class="letter__image">
+                <img
+                    src="assets/images/birthday/mewmew.gif"
+                    alt="">
+            </div>
+
+            <p class="letter__eyebrow">
+                ✦ With love - Maira
+            </p>
+
+            <h2 id="letterTitle">
+                Happy Birthday
+                Maira!
+            </h2>
+
+            <div class="letter__message">
+                <p>
+                    Today is a celebration of you,
+                    the memories you've made
+                    and all the beautiful moments
+                    still waiting ahead.
+                </p>
+
+                <p>
+                    I hope this year brings you
+                    plenty of happiness, laughter,
+                    wonderful memories and countless
+                    reasons to smile.
+                </p>
+            </div>
+
+            <p class="letter__signature">
+                With love ♡ Arman Ahmad
+            </p>
+
+        </div>
+    </div>
+
+    <div
+        class="celebration-overlay"
+        id="celebrationOverlay"
+        aria-hidden="true">
+
+        <div
+            class="celebration-overlay__backdrop"
+            data-celebration-close></div>
+
+        <div
+            class="celebration-overlay__dialog"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="celebrationOverlayTitle">
+
+            <button
+                class="celebration-overlay__close"
+                type="button"
+                aria-label="Close"
+                data-celebration-close>
+                ×
+            </button>
+
+            <img
+                class="celebration-overlay__image"
+                id="celebrationOverlayImage"
+                src=""
+                alt="">
+
+            <p class="section-heading__eyebrow">
+                ✦ A little birthday wish
+            </p>
+
+            <h2 id="celebrationOverlayTitle"></h2>
+
+            <p id="celebrationOverlayText"></p>
+
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
